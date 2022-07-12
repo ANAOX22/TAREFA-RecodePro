@@ -1,0 +1,66 @@
+.navbar{
+    border: 1px solid purple;
+    background-color: hsla(69, 59%, 78%, 0.7);
+}
+.boton{
+    border: 1px solid rgb(0, 100,255);
+    background-color: rgb(208, 255, 0);
+    width:90px ;
+    height: 30px;
+    color: rgb(2, 8, 17); 
+}
+.caixaTexto{
+    border:1px solid rgb(0, 100,255);
+    background-color: rgb(231, 249, 140);
+}
+.body1{
+    background-image: url(../IMAGENS/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.body2{
+    background-image: url(../IMAGENS/fondo2);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.body3{
+    background-image: url(../IMAGENS/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.body4{
+    background-image: url(../IMAGENS/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.body5{
+    background-image: url(../IMAGENS/fondo5.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.body6{
+    background-image: url(../IMAGENS/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#letraHome{
+    font-family: 'Arial','Times New Roman', Times, serif;
+    color: rgba(rgba(247, 252, 143, 0.7) );
+    width: 250px;
+    height: 100px;
+}
+.cards{
+    margin-left: 250px;
+}
+#HomeText{
+    margin-left: 300px;
+    font-size: 70px ;
+    color: rgb(226, 248, 103);
+    font-style:italic;
+}
+.card-img-top{
+    max-width: 290px;
+    max-height: 250px;
+}
