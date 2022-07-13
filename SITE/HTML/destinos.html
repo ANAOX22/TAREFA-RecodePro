@@ -11,14 +11,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-        <script src="../CODIGO/codigo.js"></script>
-        <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <script src="../CODIGO/codigo.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
 
 </head>
+
 <body class="body2">
     <!--INICIO NAV-BAR-->
     <nav class="navbar navbar-expand-sm barraNav">
-        
+
         <div class="container-fluid">
             <!--INICIO LISTA NAV-BAR-->
             <ul class="navbar-nav">
@@ -26,8 +27,7 @@
                 <!--INICIO ICONE NAV-BAR-->
                 <li>
                     <a href="index.html">
-                        <img src="../IMAGENS/IMG1.png"
-                            class="img-responsive" alt="" width="130" height="50">
+                        <img src="../IMAGENS/IMG1.png" class="img-responsive" alt="" width="130" height="50">
                     </a>
                 </li>
                 <!--FIM ICONE NAV-BAR-->
@@ -60,7 +60,7 @@
 
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="#">Hospedagem</a></li>
-                        <li><a class="dropdown-item" href="#">Passagens</a></li>                        
+                        <li><a class="dropdown-item" href="#">Passagens</a></li>
                     </ul>
                 </li>
                 <!--FIM MENU DESPLEGAVEL-->
@@ -70,9 +70,7 @@
             <!--FORMULARIO LOGIN-->
             <div class="col-5">
                 <form>
-                    
                     <input class="caixaTexto" name="email" type="text" placeholder="E-mail">
-                    
                     <input class="caixaTexto" name="senha" type="text" placeholder="Senha">
                     <button class="boton" href="#" role="button">Iniciar</button>
                     <div class="row justify-content-end">
@@ -81,16 +79,53 @@
                             <a href="trocar_senha.html">Esqueci a senha</a>
                         </div>
                     </div>
-                </form> 
+                </form>
             </div>
             <!--FIM FORMULARIO LOGIN-->
         </div>
         <!---->
     </nav>
-    <!---->
+    <!--FIM NAV-BAR-->
 
-
-    
+    <!--INICIO CAROUSEL-->
+    <div class="container">
+        <div class="row">
+            <div class="col" id="crr">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../IMAGENS/bs1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../IMAGENS/ILIAS-CANARIAS.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../IMAGENS//PUERTO-RICO.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-4" id="descricao">
+                <h2>Texto descriptivo do destino</h2>
+                <p id="text-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima harum non esse aspernatur molestiae.
+                    Quae delectus, facilis explicabo illum vero beatae eveniet
+                    quas harum nulla, ex sapiente, itaque doloribus libero.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--FIM CAROUSEL-->
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"

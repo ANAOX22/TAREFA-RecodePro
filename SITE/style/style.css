@@ -9,7 +9,7 @@
     height: 30px;
     color: rgb(2, 8, 17); 
 }
-.caixaTexto{
+.caixaTexto{ 
     border:1px solid rgb(0, 100,255);
     background-color: rgb(231, 249, 140);
 }
@@ -22,7 +22,7 @@
 .body2{
     background-image: url(../IMAGENS/fondo2);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:85rem;
 }
 .body3{
     background-image: url(../IMAGENS/fondo3.jpg);
@@ -45,12 +45,7 @@
     background-size:cover;
 }
 
-#letraHome{
-    font-family: 'Arial','Times New Roman', Times, serif;
-    color: rgba(rgba(247, 252, 143, 0.7) );
-    width: 250px;
-    height: 100px;
-}
+
 .cards{
     margin-left: 250px;
 }
@@ -64,3 +59,39 @@
     max-width: 290px;
     max-height: 250px;
 }
+.card-text{
+    color: rgb(144, 103, 248);
+}
+.card{
+    margin-top: 20px;
+    background-color: rgb(226, 248, 103);
+    border: 1px solid black;
+}
+.card-title{
+    color: blueviolet;
+}
+.btn{
+    background-color: blueviolet;
+    border-color: black;
+    color: white;
+}
+.carousel{
+    border: 3px solid blueviolet;
+    margin-top: 40px;
+    max-width: 800px;
+    max-height: 400px;
+}
+.carousel-item{
+    max-width: 800px;
+    max-height: 400px;
+}
+#descricao{
+    margin-top: 40px;
+}
+#text-desc{
+    color: rgb(132, 0, 255);
+
+}
+
+
+    
